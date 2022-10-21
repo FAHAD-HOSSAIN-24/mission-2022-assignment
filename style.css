@@ -1,5 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 .first_section_wrapper{
     width: 100%;
@@ -37,10 +39,135 @@ body{
     width: 80%;
 }
 .explore_btn{
-    padding: 10px 20px;
+    padding: 8px 16px;
     background-color: rgb(25, 202, 25);
-    font-size: 20px;
+    font-size: 14px;
     border-radius: 8px;
     text-decoration: none;
     color: wheat    ;
+}
+/* second section */
+.mission_head{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.second_section_wrapper{
+    display: flex;
+    margin:0px auto;
+    padding: 3% 7%;
+}
+.first_card{
+    width: 28%;
+    background-color: rgb(210, 252, 210);
+    margin-right: 15px;
+    border-radius: 15px;
+    padding: 20px;
+    padding: 20px;
+}
+.illustrator_design img{
+    width: 40%;
+}
+.second_card{
+    width: 28%;
+    background-color: rgb(253, 235, 212);
+    margin-right: 15px;
+    border-radius: 15px;
+    padding: 20px;
+}
+.third_card{
+    width: 28%;
+    background-color: rgb(212, 245, 245);
+    border-radius: 15px;
+    padding: 20px;
+}
+/* third seciton */
+
+.third_seciton_wrapper{
+    display: flex;
+    padding: 3% 7%;
+    background-image: url(image/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 200px;
+}
+.image_side{
+    width: 100%;
+}
+.image_side img{
+    width: 100%;
+}
+.text_side{
+    margin-left: 20px;
+    margin-top: 45px;
+}
+.text_side h1{
+    line-height: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text_side p{
+    margin-bottom: 35px;
+}
+/* forth section */
+
+.forth_section_wrapper{
+    display: flex;
+    padding: 4% 7%;
+    background-image: url(image/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200px;
+    background-position-y: 298px;
+    background-position-x: 1050px;
+    margin-bottom: 50px;
+}
+.text_side_unic{
+    margin-left: 0px;
+    margin-right: 50px;
+}
+
+/* fifth section */
+.fifth_section_wrapper{
+    display: flex;
+    padding: 3% 7%;
+}
+.developer_profile{
+    width: 23%;
+    margin-right: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 15px 5px;
+    box-shadow: 8px 8px 26px;
+}
+.developer_profile:last-child{
+    margin-right: 0px;
+}
+.profile_image{
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    border: 1px solid rgb(139, 243, 162);
+    margin: auto;
+    border-radius: 50%;
+}
+.profile_image img{
+    width: 100%;
+    border-radius: 50%;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 30px 10px;
+    text-align: center;
+}
+.footer h4{
+    color: rgb(71, 71, 71);
+    font-size: 10px;
+    line-height: 8px;
+}
+.footer h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
